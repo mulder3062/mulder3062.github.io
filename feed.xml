@@ -4,7 +4,7 @@
   <id>/</id>
   <title>밞신</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-09-18T22:14:57+09:00</updated>
+  <updated>2021-09-18T22:40:00+09:00</updated>
   <author>
     <name>mulder3062</name>
     <uri>/</uri>
@@ -20,8 +20,8 @@
 
   
   <entry>
-    <title>Hello world</title>
-    <link href="/posts/Hello-World/" rel="alternate" type="text/html" title="Hello world" />
+    <title>Hello world~!</title>
+    <link href="/posts/Hello-World/" rel="alternate" type="text/html" title="Hello world~!" />
     <published>2021-09-18T22:00:00+09:00</published>
   
     <updated>2021-09-18T22:00:00+09:00</updated>
@@ -44,7 +44,7 @@
 
 
 
-      Hello world
+      Hello world~!
 
     </summary>
   
