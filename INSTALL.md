@@ -40,8 +40,10 @@ Hi mulder3062! You've successfully authenticated, but GitHub does not provide sh
 여러 계정 사용시 참고: https://www.lainyzine.com/ko/article/useful-git-settings-when-using-github-multi-account/
 
 8. clone
+github.io는 github pro 계정이 아니면 private으로 할 수 없다.
+그래서 별도 개발용 repository를 만들었다.
 ```
-$ git clone git@github.com:mulder3062/mulder3062.github.io.git
+$ git clone git@github.com:mulder3062/mulder3062.github.io.dev.git
 ```
 
 # Jekyll?
@@ -70,6 +72,15 @@ $ bundle
 
 ```
 $ bundle exec jekyll serve
+```
+
+# 배포
+타겟: git@github.com:mulder3062/mulder3062.github.io.git
+
+아래 방법으로 commit하지 않으면 https://mulder3062.github.io 접속시 404 오류가 뜬다.
+```
+$ git commit --allow-empty -m "rebuild"
+$ git push origin master
 ```
 
 
