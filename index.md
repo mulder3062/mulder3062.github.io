@@ -3,23 +3,26 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "mulder's blog"
+  text: "흐르는 강물처럼"
+  tagline: 나의 프로젝트
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Archive
+      link: /archive
+    - theme: alt
+      text: Markdown 예시
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: API 예시
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 기능 A
+    details: 자세한 내용은 로렘 매우 당근, 토마토 학부 개발자
+  - title: 기능 B
+    details: 로렘 매우 당근, 토마토 학부 개발자
+  - title: 기능 C
+    details: 로렘 매우 당근, 토마토 학부 개발자
 ---
 
