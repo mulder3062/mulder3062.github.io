@@ -24,5 +24,15 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  head: [ // TODO Google Analytics를 붙이자. https://vitepress.dev/reference/site-config#example-using-google-analytics
+      [
+        'link', 
+        { rel: 'icon', href: '/favicon.png' }
+      ],
+      [
+        'link',
+        { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
+      ],
+    ]
 })
