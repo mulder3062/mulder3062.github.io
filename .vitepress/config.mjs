@@ -4,17 +4,19 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "mulder's Blog",
   description: "A VitePress Site",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Archive', link: '/archive' }
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
+          { text: 'Archive', link: '/archive' },
           { text: 'Markdown Examples', link: '/markdown-examples' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
@@ -26,13 +28,16 @@ export default defineConfig({
     ]
   },
   head: [ // TODO Google Analytics를 붙이자. https://vitepress.dev/reference/site-config#example-using-google-analytics
-      [
-        'link', 
-        { rel: 'icon', href: '/favicon.png' }
-      ],
-      [
-        'link',
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
-      ],
-    ]
+    [
+      'link',
+      { rel: 'icon', href: '/favicon.png' }
+    ],
+    [
+      'link',
+      { rel: 'preconnect', href: 'https://fonts.googleapis.com' }
+    ],
+  ],
+  // buildEnd: () => {
+    
+  // }
 })
